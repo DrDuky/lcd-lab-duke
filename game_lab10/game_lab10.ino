@@ -17,7 +17,7 @@ void setup() {
 
 void loop() {
   lcd.clear();                  // Clear the LCD screen
-  lcd.print("Click to Start");  // Display instruction to the player
+  lcd.print("Press to Start");  // Display instruction to the player
   lcd.setCursor(0, 1);
   lcd.print("Best: ");
   if(max == 0) lcd.print("undefined");
